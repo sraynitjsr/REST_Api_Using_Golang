@@ -1,3 +1,7 @@
+## Dockerizing the app
+# docker build -t go-app .
+# docker run -d -p 3333:3000 --name go-app-container go-app
+
 ## Deploy on Minikube Cluster
 # kubectl create -f deployment.yaml
 # kubectl get deployments
